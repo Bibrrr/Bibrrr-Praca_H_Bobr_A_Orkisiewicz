@@ -1,0 +1,97 @@
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe.config
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form1.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Properties.Resources.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.GenerateResource.Cache
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form2.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\RdlCompile.cache
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\RdlCompile.compiled
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form3.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.coffeeshop.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.LoadData.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.LoginForm.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.MainForm.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.RegistrationForm.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\QRCoder.dll
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.ScanForm.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.dll
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.dll
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.dll
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.dll
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.xml
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.xml
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.xml
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.xml
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csprojResolveAssemblyReference.cache
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.attendanceForm.resources
+C:\Users\acer\Documents\Visual Studio 2017\Projects\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.StudentInfo.resources
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe.config
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.dll
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.dll
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.dll
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\QRCoder.dll
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.dll
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.dll
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.xml
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.xml
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.xml
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.xml
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.xml
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csprojResolveAssemblyReference.cache
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form1.resources
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form2.resources
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form3.resources
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.LoadData.resources
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Properties.Resources.resources
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.GenerateResource.Cache
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+D:\arduino\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.AssemblyReference.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.SuggestedBindingRedirects.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form1.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form2.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form3.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.LoadData.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.GenerateResource.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Properties.Resources.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.CoreCompileInputs.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.AssemblyReference.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.SuggestedBindingRedirects.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form1.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form2.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form3.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.LoadData.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Properties.Resources.resources
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.GenerateResource.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.CoreCompileInputs.cache
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe.config
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\QRCoder.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.dll
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.xml
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.xml
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.xml
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.xml
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.CopyComplete
+C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
