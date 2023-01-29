@@ -17,8 +17,6 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-          //testowy commit 
-          // Drugi testowy commit
            
         }
     }

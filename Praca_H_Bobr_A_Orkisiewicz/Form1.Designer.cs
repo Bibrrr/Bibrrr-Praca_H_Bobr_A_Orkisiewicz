@@ -75,7 +75,7 @@
             this.radioButton1.Location = new System.Drawing.Point(21, 149);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 20);
+            this.radioButton1.Size = new System.Drawing.Size(99, 20);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "JEDZIEMY";
@@ -99,9 +99,10 @@
             this.label1.Location = new System.Drawing.Point(378, 25);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(297, 42);
+            this.label1.Size = new System.Drawing.Size(374, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "JAZDA Z KURWAMI";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // radioButton2
             // 
@@ -110,7 +111,7 @@
             this.radioButton2.Location = new System.Drawing.Point(174, 149);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(98, 20);
+            this.radioButton2.Size = new System.Drawing.Size(104, 20);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "KURWA XD";
@@ -124,7 +125,7 @@
             this.label2.Location = new System.Drawing.Point(18, 209);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 16);
+            this.label2.Size = new System.Drawing.Size(93, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Selete Items";
             // 
@@ -135,7 +136,7 @@
             this.label3.Location = new System.Drawing.Point(18, 259);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 16);
+            this.label3.Size = new System.Drawing.Size(51, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Prices";
             // 
@@ -146,7 +147,7 @@
             this.label4.Location = new System.Drawing.Point(18, 307);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 16);
+            this.label4.Size = new System.Drawing.Size(63, 16);
             this.label4.TabIndex = 5;
             this.label4.Text = "Quantity";
             // 
@@ -157,7 +158,7 @@
             this.label5.Location = new System.Drawing.Point(18, 353);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
+            this.label5.Size = new System.Drawing.Size(43, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Total";
             // 
@@ -284,7 +285,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(792, 478);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 16);
+            this.label6.Size = new System.Drawing.Size(98, 16);
             this.label6.TabIndex = 15;
             this.label6.Text = "Total Amount";
             // 
@@ -306,7 +307,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(792, 515);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 16);
+            this.label7.Size = new System.Drawing.Size(89, 16);
             this.label7.TabIndex = 17;
             this.label7.Text = "Pay Amount";
             // 
@@ -325,7 +326,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(792, 561);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(118, 16);
+            this.label8.Size = new System.Drawing.Size(117, 16);
             this.label8.TabIndex = 19;
             this.label8.Text = "Reapay Amount";
             // 

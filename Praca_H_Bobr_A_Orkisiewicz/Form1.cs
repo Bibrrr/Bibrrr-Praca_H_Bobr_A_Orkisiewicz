@@ -27,7 +27,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             con.Open();
             if (con.State == ConnectionState.Open)
             {
-                MessageBox.Show("sssss");
+                MessageBox.Show("Pomyślnie połączono z bazą danych");
                 con.Close();
             }
             
@@ -38,9 +38,9 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             radioButton1.ForeColor = System.Drawing.Color.BlueViolet;
             radioButton2.ForeColor = System.Drawing.Color.RosyBrown;
             comboBox1.Items.Clear();
-            comboBox1.Items.Add("Coffee Item 1");
-            comboBox1.Items.Add("Coffee Item 2");
-            comboBox1.Items.Add("Coffee Item 3");
+            comboBox1.Items.Add("Czarna Kawa");
+            comboBox1.Items.Add("Expresso");
+            comboBox1.Items.Add("Latte");
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -48,34 +48,34 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             radioButton1.ForeColor = System.Drawing.Color.RosyBrown;
             radioButton2.ForeColor = System.Drawing.Color.BlueViolet;
             comboBox1.Items.Clear();
-            comboBox1.Items.Add("Dessert Item 1");
-            comboBox1.Items.Add("DessertItem 2");
-            comboBox1.Items.Add("Dessert Item 3");
+            comboBox1.Items.Add("Szarlotka");
+            comboBox1.Items.Add("Sernik");
+            comboBox1.Items.Add("Kremówka");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedItem.ToString() == "Coffee Item 1")
+            if (comboBox1.SelectedItem.ToString() == "Czarna Kawa")
              {
                 textBox1.Text = "50";
             }
-            else if (comboBox1.SelectedItem.ToString() == "Coffee Item 2")
+            else if (comboBox1.SelectedItem.ToString() == "Expresso")
             {
                 textBox1.Text = "100";
             }
-            else if (comboBox1.SelectedItem.ToString() == "Coffee Item 3")
+            else if (comboBox1.SelectedItem.ToString() == "Latte")
             {
                 textBox1.Text = "150";
             }
-            else if (comboBox1.SelectedItem.ToString() == "Dessert Item 1")
+            else if (comboBox1.SelectedItem.ToString() == "Szarlotka")
             {
                 textBox1.Text = "100";
             }
-            else if (comboBox1.SelectedItem.ToString() == "DessertItem 2")
+            else if (comboBox1.SelectedItem.ToString() == "Sernik")
             {
                 textBox1.Text = "150";
             }
-            else if (comboBox1.SelectedItem.ToString() == "Dessert Item 3")
+            else if (comboBox1.SelectedItem.ToString() == "Kremówka")
             {
                 textBox1.Text = "250";
             }
@@ -198,6 +198,11 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             this.Show();
 
             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
     
