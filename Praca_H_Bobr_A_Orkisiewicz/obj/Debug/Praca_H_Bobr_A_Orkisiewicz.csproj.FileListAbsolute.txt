@@ -95,3 +95,33 @@ C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management Sy
 C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.xml
 C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.CopyComplete
 C:\Users\hubert\Desktop\Studia\2 ROK\1 SEM\projekty c#\Coffee Shop Management System\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe.config
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\QRCoder.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.xml
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.xml
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.xml
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\bin\Debug\zxing.presentation.xml
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.AssemblyReference.cache
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.SuggestedBindingRedirects.cache
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form1.resources
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form2.resources
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Form3.resources
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.LoadData.resources
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.Properties.Resources.resources
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.GenerateResource.cache
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.CoreCompileInputs.cache
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.csproj.CopyComplete
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.exe
+C:\Users\hubert\Source\Repos\Bibrrr-Praca_H_Bobr_A_Orkisiewicz\Praca_H_Bobr_A_Orkisiewicz\obj\Debug\Praca_H_Bobr_A_Orkisiewicz.pdb

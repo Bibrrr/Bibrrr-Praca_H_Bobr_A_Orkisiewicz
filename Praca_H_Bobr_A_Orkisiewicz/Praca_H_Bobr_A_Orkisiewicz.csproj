@@ -141,16 +141,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images %283%29.jfif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\external-logout-social-media-basic-1-sbts2018-flat-sbts2018.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hospital-2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1.jpg" />
+    <Content Include="Resources\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
