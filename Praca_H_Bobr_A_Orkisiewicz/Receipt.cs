@@ -9,9 +9,9 @@ namespace Praca_H_Bobr_A_Orkisiewicz
     class Receipt
     {
         public int Id { get; set; }
-        public string ItemsName { get; set; }
-        public double Prices { get; set; }
-        public int Quantity { get; set; }
-        public string Total { get { return string.Format("{0}$", Prices * Quantity); } }
+        public string Przedmiot { get; set; }
+        public double Cena { get; set; }
+        public int Ilość { get; set; }
+        public string Suma { get { return string.Format("{0}$", Cena * Ilość); } }
     }
 }

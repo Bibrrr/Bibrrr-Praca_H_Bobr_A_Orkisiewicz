@@ -9,7 +9,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
     static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// Punkt do uruchomienia aplikacji
         /// </summary>
         [STAThread]
         static void Main()

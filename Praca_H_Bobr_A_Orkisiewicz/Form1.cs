@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Documents;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 namespace Praca_H_Bobr_A_Orkisiewicz
@@ -54,7 +56,8 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
+        {             
+       
             if (comboBox1.SelectedItem.ToString() == "Czarna Kawa")
              {
                 textBox1.Text = "50";
