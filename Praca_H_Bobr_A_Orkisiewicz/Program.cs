@@ -8,9 +8,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
 {
     static class Program
     {
-        /// <summary>
-        /// Punkt do uruchomienia aplikacji
-        /// </summary>
+        // Punkt do uruchomienia aplikacji
         [STAThread]
         static void Main()
         {

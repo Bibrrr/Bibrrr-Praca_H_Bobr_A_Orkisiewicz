@@ -1,16 +1,12 @@
 ﻿namespace Praca_H_Bobr_A_Orkisiewicz
 {
     partial class Form1
-    {
-        /// <summary>
-        /// Wymagane zmienne dla Microsoft designer.
-        /// </summary>
+    { 
+        //Wymagane zmienne dla Microsoft designer
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Zwolnienie używanych zasobów
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        // Zwolnienie używanych zasobów
+        // <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,9 +18,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Kod Microsoft Designer. Prośba nie edytować.
-        /// </summary>
+        // Kod Microsoft Designer. Prośba nie edytować.
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();

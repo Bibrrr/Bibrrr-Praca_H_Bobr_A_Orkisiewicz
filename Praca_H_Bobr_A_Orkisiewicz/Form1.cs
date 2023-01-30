@@ -105,7 +105,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             textBox4.Text = (Convert.ToInt16(textBox4.Text) + Convert.ToInt16(textBox2.Text)).ToString();
             //int n = dataGridView1.Rows.Add();
             //dataGridView1.Rows[n].Cells[0].Value = (n + 1).ToString();
-          //  dataGridView1.Rows[n].Cells[1].Value = dateTimePicker1.Value.ToString();
+            //dataGridView1.Rows[n].Cells[1].Value = dateTimePicker1.Value.ToString();
 
             //comboBox1.Text = "";
             textBox1.Text = "";

@@ -1638,9 +1638,7 @@ namespace DGVPrinterHelper //AllocationRequest
         //---------------------------------------------------------------------
         // Constructor
         //---------------------------------------------------------------------
-        /// <summary>
-        /// Constructor for DGVPrinter
-        /// </summary>
+        // Constructor for DGVPrinter
         public DGVPrinter()
         {
             // create print document
