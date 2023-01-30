@@ -27,7 +27,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             con.Open();
             if (con.State == ConnectionState.Open)
             {
-                MessageBox.Show("Pomyślnie połączono z bazą danych");
+                MessageBox.Show("Witamy w Kawiarni Ce Kratka");
                 con.Close();
             }
             
@@ -155,7 +155,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
                 //MySqlCommand cmd = new MySqlCommand("INSERT INTO item_tbl (Date) Values ('" + dateTimePicker1.Value.ToString() + "')", con);
                 con.Open();
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("GGGGGG");
+                MessageBox.Show("Zamówienie zostało przyjęte :)");
                 con.Close();
             }
             dataGridView1.Rows.Clear();

@@ -3,7 +3,7 @@
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        /// Wymagane zmienne dla windows designer.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
@@ -78,7 +78,7 @@
             this.radioButton1.Size = new System.Drawing.Size(99, 20);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "JEDZIEMY";
+            this.radioButton1.Text = "Kawa";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
@@ -101,7 +101,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(374, 42);
             this.label1.TabIndex = 0;
-            this.label1.Text = "JAZDA Z KURWAMI";
+            this.label1.Text = "Kawiarnia Ce Kratka";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // radioButton2
@@ -114,7 +114,7 @@
             this.radioButton2.Size = new System.Drawing.Size(104, 20);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "KURWA XD";
+            this.radioButton2.Text = "Deser";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
@@ -127,7 +127,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Selete Items";
+            this.label2.Text = "Przedmiot";
             // 
             // label3
             // 
@@ -138,7 +138,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 16);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Prices";
+            this.label3.Text = "Cena";
             // 
             // label4
             // 
@@ -149,7 +149,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 16);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Quantity";
+            this.label4.Text = "Ilosć";
             // 
             // label5
             // 
@@ -160,7 +160,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 16);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Total";
+            this.label5.Text = "Suma";
             // 
             // textBox1
             // 
@@ -205,7 +205,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 40);
             this.button1.TabIndex = 11;
-            this.button1.Text = "Add Items";
+            this.button1.Text = "Dodaj Przedmioty";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -217,7 +217,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 40);
             this.button2.TabIndex = 12;
-            this.button2.Text = "Delete Items";
+            this.button2.Text = "Usuń Przedmioty";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -252,31 +252,31 @@
             // 
             // name
             // 
-            this.name.HeaderText = "Items Name";
+            this.name.HeaderText = "Przedmiot";
             this.name.Name = "name";
             this.name.ReadOnly = true;
             // 
             // price
             // 
-            this.price.HeaderText = "Prices";
+            this.price.HeaderText = "Cena";
             this.price.Name = "price";
             this.price.ReadOnly = true;
             // 
             // Qt
             // 
-            this.Qt.HeaderText = "Quantity";
+            this.Qt.HeaderText = "Ilość";
             this.Qt.Name = "Qt";
             this.Qt.ReadOnly = true;
             // 
             // Total
             // 
-            this.Total.HeaderText = "Total";
+            this.Total.HeaderText = "Suma";
             this.Total.Name = "Total";
             this.Total.ReadOnly = true;
             // 
             // date
             // 
-            this.date.HeaderText = "Date";
+            this.date.HeaderText = "Data";
             this.date.Name = "date";
             this.date.ReadOnly = true;
             // 
@@ -287,7 +287,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(98, 16);
             this.label6.TabIndex = 15;
-            this.label6.Text = "Total Amount";
+            this.label6.Text = "Cena Końcowa";
             // 
             // textBox4
             // 
@@ -309,7 +309,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 16);
             this.label7.TabIndex = 17;
-            this.label7.Text = "Pay Amount";
+            this.label7.Text = "Zapłacono";
             // 
             // textBox5
             // 
@@ -328,7 +328,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(117, 16);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Reapay Amount";
+            this.label8.Text = "Reszta";
             // 
             // textBox6
             // 
@@ -347,7 +347,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(101, 40);
             this.button3.TabIndex = 21;
-            this.button3.Text = "Save";
+            this.button3.Text = "Zapisz";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -359,7 +359,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(101, 40);
             this.button5.TabIndex = 23;
-            this.button5.Text = "Clear";
+            this.button5.Text = "Wyczyść";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -388,7 +388,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(91, 27);
             this.button6.TabIndex = 24;
-            this.button6.Text = "LoadData";
+            this.button6.Text = "Wczytaj Dane";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
