@@ -210,7 +210,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
 
 
         }
-        private void losowanie(string[] args)
+        private void losowanie(object sender, EventArgs e)
         {
             var random = new Random();
             var list = new List<string> { "wruci", "nie wruci", "powrtuci" };
@@ -239,7 +239,15 @@ namespace Praca_H_Bobr_A_Orkisiewicz
 
         }
 
-      
+        private void textLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

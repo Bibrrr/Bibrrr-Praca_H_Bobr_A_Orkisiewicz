@@ -73,36 +73,6 @@ namespace Praca_H_Bobr_A_Orkisiewicz.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap external_logout_social_media_basic_1_sbts2018_flat_sbts2018 {
-            get {
-                object obj = ResourceManager.GetObject("external-logout-social-media-basic-1-sbts2018-flat-sbts2018", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap hospital_2 {
-            get {
-                object obj = ResourceManager.GetObject("hospital-2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images__3_ {
-            get {
-                object obj = ResourceManager.GetObject("images (3)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap img2 {
             get {
                 object obj = ResourceManager.GetObject("img2", resourceCulture);

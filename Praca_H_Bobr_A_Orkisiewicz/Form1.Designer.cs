@@ -23,9 +23,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.Label textLabel;
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,11 +53,17 @@
             this.button5 = new System.Windows.Forms.Button();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.receiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.button6 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.receiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.Polecane = new System.Windows.Forms.TextBox();
+            textLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.receiptBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // radioButton1
@@ -74,30 +79,6 @@
             this.radioButton1.Text = "Kawa";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = global::Praca_H_Bobr_A_Orkisiewicz.Properties.Resources.img2;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel1.Location = new System.Drawing.Point(-6, 4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1323, 107);
-            this.panel1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(378, 25);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(377, 42);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Kawiarnia Ce Kratka";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // radioButton2
             // 
@@ -373,10 +354,6 @@
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
-            // receiptBindingSource
-            // 
-            this.receiptBindingSource.DataSource = typeof(Praca_H_Bobr_A_Orkisiewicz.Receipt);
-            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(356, 142);
@@ -387,12 +364,65 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::Praca_H_Bobr_A_Orkisiewicz.Properties.Resources.img2;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panel1.Location = new System.Drawing.Point(-6, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1323, 107);
+            this.panel1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(378, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(377, 42);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Kawiarnia Ce Kratka";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // receiptBindingSource
+            // 
+            this.receiptBindingSource.DataSource = typeof(Praca_H_Bobr_A_Orkisiewicz.Receipt);
+            // 
+            // form1BindingSource
+            // 
+            this.form1BindingSource.DataSource = typeof(Praca_H_Bobr_A_Orkisiewicz.Form1);
+            // 
+            // textLabel
+            // 
+            textLabel.AutoSize = true;
+            textLabel.Location = new System.Drawing.Point(22, 540);
+            textLabel.Name = "textLabel";
+            textLabel.Size = new System.Drawing.Size(131, 16);
+            textLabel.TabIndex = 24;
+            textLabel.Text = "Dzisiaj Polecamy:";
+            textLabel.Click += new System.EventHandler(this.textLabel_Click);
+            // 
+            // Polecane
+            // 
+            this.Polecane.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.form1BindingSource, "Text", true));
+            this.Polecane.Location = new System.Drawing.Point(159, 537);
+            this.Polecane.Name = "Polecane";
+            this.Polecane.Size = new System.Drawing.Size(144, 22);
+            this.Polecane.TabIndex = 25;
+            this.Polecane.TextChanged += new System.EventHandler(this.textTextBox_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1027, 608);
+            this.ClientSize = new System.Drawing.Size(1063, 608);
+            this.Controls.Add(textLabel);
+            this.Controls.Add(this.Polecane);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
@@ -422,10 +452,11 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.receiptBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -466,5 +497,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Qt;
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
+        private System.Windows.Forms.BindingSource form1BindingSource;
+        private System.Windows.Forms.TextBox Polecane;
     }
 }
