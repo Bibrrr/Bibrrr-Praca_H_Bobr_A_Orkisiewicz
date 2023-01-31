@@ -43,6 +43,8 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             comboBox1.Items.Add("Czarna Kawa");
             comboBox1.Items.Add("Expresso");
             comboBox1.Items.Add("Latte");
+            comboBox1.Items.Add("Gorąca Czekolada");
+            comboBox1.Items.Add("Kawa Mrożona");
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -53,6 +55,8 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             comboBox1.Items.Add("Szarlotka");
             comboBox1.Items.Add("Sernik");
             comboBox1.Items.Add("Kremówka");
+            comboBox1.Items.Add("Tarta Owocowa");
+            comboBox1.Items.Add("Ptyś");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -70,6 +74,14 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             {
                 textBox1.Text = "150";
             }
+            else if (comboBox1.SelectedItem.ToString() == "Gorąca Czekolada")
+            {
+                textBox1.Text = "180";
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Kawa Mrożona")
+            {
+                textBox1.Text = "190";
+            }
             else if (comboBox1.SelectedItem.ToString() == "Szarlotka")
             {
                 textBox1.Text = "100";
@@ -81,6 +93,14 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             else if (comboBox1.SelectedItem.ToString() == "Kremówka")
             {
                 textBox1.Text = "250";
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Tarta Owocowa")
+            {
+                textBox1.Text = "280";
+            }
+            else if (comboBox1.SelectedItem.ToString() == "Ptyś")
+            {
+                textBox1.Text = "300";
             }
             else
             {
@@ -190,7 +210,13 @@ namespace Praca_H_Bobr_A_Orkisiewicz
 
 
         }
-        
+        private void losowanie(string[] args)
+        {
+            var random = new Random();
+            var list = new List<string> { "wruci", "nie wruci", "powrtuci" };
+            int index = random.Next(list.Count);
+            Console.Write(list[index]);
+        }
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -207,6 +233,13 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         {
 
         }
+
+        private void accessibleNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
     
 }
