@@ -60,54 +60,56 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {             
-       
-            if (comboBox1.SelectedItem.ToString() == "Czarna Kawa")
-             {
-                textBox1.Text = "50";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Expresso")
+        {
+
+            switch (comboBox1.SelectedItem.ToString())
             {
-                textBox1.Text = "100";
+                case "Czarna Kawa":
+                    textBox1.Text = "50";
+                    break;
+
+                case "Expresso":
+                    textBox1.Text = "100";
+                    break;
+
+                case "Latte":
+                    textBox1.Text = "150";
+                    break;
+
+                case "Gorąca Czekolada":
+                    textBox1.Text = "180";
+                    break;
+
+                case "Kawa Mrożona":
+                    textBox1.Text = "190";
+                    break;
+
+                case "Szarlotka":
+                    textBox1.Text = "100";
+                    break;
+
+                case "Sernik":
+                    textBox1.Text = "150";
+                    break;
+
+                case "Kremówka":
+                    textBox1.Text = "250";
+                    break;
+
+                case "Tarta Owocowa":
+                    textBox1.Text = "280";
+                    break;
+
+                case "Ptyś":
+                    textBox1.Text = "300";
+                    break;
+
+                default:
+                    textBox1.Text = "0";
+                    textBox3.Text = "";
+                    textBox2.Text = "";
+                    break;
             }
-            else if (comboBox1.SelectedItem.ToString() == "Latte")
-            {
-                textBox1.Text = "150";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Gorąca Czekolada")
-            {
-                textBox1.Text = "180";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Kawa Mrożona")
-            {
-                textBox1.Text = "190";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Szarlotka")
-            {
-                textBox1.Text = "100";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Sernik")
-            {
-                textBox1.Text = "150";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Kremówka")
-            {
-                textBox1.Text = "250";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Tarta Owocowa")
-            {
-                textBox1.Text = "280";
-            }
-            else if (comboBox1.SelectedItem.ToString() == "Ptyś")
-            {
-                textBox1.Text = "300";
-            }
-            else
-            {
-                textBox1.Text = "0";
-            }
-            textBox3.Text = "";
-            textBox2.Text = "";
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
