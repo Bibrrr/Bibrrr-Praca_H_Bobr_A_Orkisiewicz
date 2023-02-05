@@ -140,7 +140,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         {
              if (textBox5.Text.Length > 0)
             {
-                textBox6.Text = (Convert.ToInt16(textBox4.Text) - Convert.ToInt16(textBox5.Text)).ToString();
+                textBox6.Text = (Convert.ToInt16(textBox5.Text) - Convert.ToInt16(textBox4.Text)).ToString();
             }
         }
 
@@ -172,23 +172,24 @@ namespace Praca_H_Bobr_A_Orkisiewicz
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            int reszta = Int32.Parse(textBox6.Text);
+            if (reszta >= 0)
+            { 
+                for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                {
+                    MySqlCommand cmd = new MySqlCommand("INSERT INTO item_tbl Values ('" + dataGridView1.Rows[i].Cells[0].Value + "','" + dataGridView1.Rows[i].Cells[1].Value + "','" + dataGridView1.Rows[i].Cells[2].Value + "','" + dataGridView1.Rows[i].Cells[3].Value + "','" + dataGridView1.Rows[i].Cells[4].Value + "')", con);
+                    //MySqlCommand cmd = new MySqlCommand("INSERT INTO item_tbl (Date) Values ('" + dateTimePicker1.Value.ToString() + "')", con);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Zamówienie zostało przyjęte :)");
+                    con.Close();
+                }
+                dataGridView1.Rows.Clear();
 
-            for (int i = 0; i < dataGridView1.Rows.Count; i++)
-            {
-                MySqlCommand cmd = new MySqlCommand("INSERT INTO item_tbl Values ('" + dataGridView1.Rows[i].Cells[0].Value + "','" + dataGridView1.Rows[i].Cells[1].Value + "','" + dataGridView1.Rows[i].Cells[2].Value + "','" + dataGridView1.Rows[i].Cells[3].Value + "','" + dataGridView1.Rows[i].Cells[4].Value + "')", con);
-                //MySqlCommand cmd = new MySqlCommand("INSERT INTO item_tbl (Date) Values ('" + dateTimePicker1.Value.ToString() + "')", con);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Zamówienie zostało przyjęte :)");
-                con.Close();
-            }
-            dataGridView1.Rows.Clear();
-
-            textBox4.Text = "0";
-            textBox5.Text = "";
-            textBox6.Text = "";
-
+                textBox4.Text = "0";
+                textBox5.Text = "";
+                textBox6.Text = "";
+            } else {MessageBox.Show("Proszę uregulować rachunek"); }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -217,7 +218,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             var random = new Random();
             var list = new List<string> { "wruci", "nie wruci", "powrtuci" };
             int index = random.Next(list.Count);
-            Console.Write(list[index]);
+            Polecane = list[index];
         }
 
         private void button6_Click(object sender, EventArgs e)
