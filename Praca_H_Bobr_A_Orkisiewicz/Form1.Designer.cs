@@ -1,4 +1,6 @@
-﻿namespace Praca_H_Bobr_A_Orkisiewicz
+﻿using System;
+
+namespace Praca_H_Bobr_A_Orkisiewicz
 {
     partial class Form1
     {
@@ -22,8 +24,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Label dockLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.Label textLabel;
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -56,15 +58,24 @@
             this.button6 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.receiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.Polecane = new System.Windows.Forms.Label();
             this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.Polecane = new System.Windows.Forms.TextBox();
-            textLabel = new System.Windows.Forms.Label();
+            this.receiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            dockLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.receiptBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.receiptBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // dockLabel
+            // 
+            dockLabel.AutoSize = true;
+            dockLabel.Location = new System.Drawing.Point(18, 540);
+            dockLabel.Name = "dockLabel";
+            dockLabel.Size = new System.Drawing.Size(130, 16);
+            dockLabel.TabIndex = 25;
+            dockLabel.Text = "Dzisiaj polecamy:";
             // 
             // radioButton1
             // 
@@ -388,40 +399,70 @@
             this.label1.Text = "Kawiarnia Ce Kratka";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // receiptBindingSource
-            // 
-            this.receiptBindingSource.DataSource = typeof(Praca_H_Bobr_A_Orkisiewicz.Receipt);
+            // Polecane
+            //
+            this.Polecane.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.form1BindingSource, "Dock", true));
+            this.Polecane.Location = new System.Drawing.Point(154, 540);
+            this.Polecane.Name = "Polecane";
+            this.Polecane.Size = new System.Drawing.Size(149, 23);
+            this.Polecane.TabIndex = 26;
+            this.Polecane.Text = "Polecane";
+            Random rnd = new Random();
+            int losik = rnd.Next(1, 10);
+            switch (losik)
+            {
+                case 1:
+                    this.Polecane.Text = "Kawa czarna";
+                    break;
+                case 2:
+                    this.Polecane.Text = "Expresso";
+                    break;
+                case 3:
+                    this.Polecane.Text = "Latte";
+                    break;
+                case 4:
+                    this.Polecane.Text = "Gorąca Czekolada";
+                    break;
+                case 5:
+                    this.Polecane.Text = "Kawa Mrożona";
+                    break;
+                case 6:
+                    this.Polecane.Text = "Szarlotka";
+                    break;
+                case 7:
+                    this.Polecane.Text = "Sernik";
+                    break;
+                case 8:
+                    this.Polecane.Text = "Kremówka";
+                    break;
+                case 9:
+                    this.Polecane.Text = "Tarta Owocowa";
+                    break;
+                case 10:
+                    this.Polecane.Text = "Ptyś";
+                    break;
+                default:
+                    this.Polecane.Text = "";
+                    break;
+
+            }
+            this.Polecane.Click += new System.EventHandler(this.dockLabel1_Click);
             // 
             // form1BindingSource
             // 
             this.form1BindingSource.DataSource = typeof(Praca_H_Bobr_A_Orkisiewicz.Form1);
             // 
-            // textLabel
+            // receiptBindingSource
             // 
-            textLabel.AutoSize = true;
-            textLabel.Location = new System.Drawing.Point(22, 540);
-            textLabel.Name = "textLabel";
-            textLabel.Size = new System.Drawing.Size(131, 16);
-            textLabel.TabIndex = 24;
-            textLabel.Text = "Dzisiaj Polecamy:";
-            textLabel.Click += new System.EventHandler(this.textLabel_Click);
-            // 
-            // Polecane
-            // 
-            this.Polecane.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.form1BindingSource, "Text", true));
-            this.Polecane.Location = new System.Drawing.Point(159, 537);
-            this.Polecane.Name = "Polecane";
-            this.Polecane.Size = new System.Drawing.Size(144, 22);
-            this.Polecane.TabIndex = 25;
-            this.Polecane.TextChanged += new System.EventHandler(this.textTextBox_TextChanged);
+            this.receiptBindingSource.DataSource = typeof(Praca_H_Bobr_A_Orkisiewicz.Receipt);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1063, 608);
-            this.Controls.Add(textLabel);
+            this.ClientSize = new System.Drawing.Size(1337, 608);
+            this.Controls.Add(dockLabel);
             this.Controls.Add(this.Polecane);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -455,8 +496,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.receiptBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.receiptBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -498,6 +539,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
         private System.Windows.Forms.BindingSource form1BindingSource;
-        private System.Windows.Forms.TextBox Polecane;
+        private System.Windows.Forms.Label Polecane;
     }
 }

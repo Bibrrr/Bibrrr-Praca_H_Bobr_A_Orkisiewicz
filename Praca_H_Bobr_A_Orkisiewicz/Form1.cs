@@ -215,11 +215,46 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         }
         private void losowanie(object sender, EventArgs e)
         {
-            var random = new Random();
-            var list = new List<string> { "wruci", "nie wruci", "powrtuci" };
-            int index = random.Next(list.Count);
-            Polecane = list[index];
-        }
+            Random rnd = new Random();
+            int losik = rnd.Next(1, 10);
+            switch (losik)
+            {
+                case 1:
+                    this.Polecane.Text = "Kawa czarna";
+                    break;
+                case 2:
+                    this.Polecane.Text = "Expresso";
+                    break;
+                case 3:
+                    this.Polecane.Text = "Latte";
+                    break;
+                case 4:
+                    this.Polecane.Text = "Gorąca Czekolada";
+                    break;
+                case 5:
+                    this.Polecane.Text = "Kawa Mrożona";
+                    break;
+                case 6:
+                    this.Polecane.Text = "Szarlotka";
+                    break;
+                case 7:
+                    this.Polecane.Text = "Sernik";
+                    break;
+                case 8:
+                    this.Polecane.Text = "Kremówka";
+                    break;
+                case 9:
+                    this.Polecane.Text = "Tarta Owocowa";
+                    break;
+                case 10:
+                    this.Polecane.Text = "Ptyś";
+                    break;
+                default:
+                    this.Polecane.Text = "";
+                    break;
+
+            }
+        } 
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -248,6 +283,11 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         }
 
         private void textTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dockLabel1_Click(object sender, EventArgs e)
         {
 
         }
