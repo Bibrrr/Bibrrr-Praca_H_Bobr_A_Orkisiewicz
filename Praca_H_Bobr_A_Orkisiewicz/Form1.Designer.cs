@@ -20,20 +20,18 @@ namespace Praca_H_Bobr_A_Orkisiewicz
 
         #region Windows Form Designer generated code
 
-        // Kod Microsoft Designer. Prośba nie edytować.
+        // Kod Microsoft Designer. Proszę nie edytować.
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label dockLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.Label dockLabel1;
+            System.Windows.Forms.Label dockLabel2;
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -59,9 +57,13 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.Polecane = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.Label();
             this.form1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.receiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
             dockLabel = new System.Windows.Forms.Label();
+            dockLabel1 = new System.Windows.Forms.Label();
+            dockLabel2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.form1BindingSource)).BeginInit();
@@ -116,58 +118,20 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             this.label2.TabIndex = 3;
             this.label2.Text = "Przedmiot";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(18, 259);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Cena";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(18, 307);
+            this.label4.Location = new System.Drawing.Point(18, 259);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 16);
+            this.label4.Size = new System.Drawing.Size(44, 16);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Ilosć";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(18, 353);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 16);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Suma";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(123, 253);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 22);
-            this.textBox1.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(123, 350);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 22);
-            this.textBox2.TabIndex = 8;
+            this.label4.Text = "Ilosć:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(123, 301);
+            this.textBox3.Location = new System.Drawing.Point(123, 259);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(180, 22);
@@ -236,6 +200,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(666, 277);
             this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // name
             // 
@@ -400,7 +365,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Polecane
-            //
+            // 
             this.Polecane.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.form1BindingSource, "Dock", true));
             this.Polecane.Location = new System.Drawing.Point(154, 540);
             this.Polecane.Name = "Polecane";
@@ -444,9 +409,45 @@ namespace Praca_H_Bobr_A_Orkisiewicz
                 default:
                     this.Polecane.Text = "";
                     break;
-
             }
-            this.Polecane.Click += new System.EventHandler(this.dockLabel1_Click);
+                    this.Polecane.Click += new System.EventHandler(this.dockLabel1_Click);
+            // 
+            // dockLabel1
+            // 
+            dockLabel1.AutoSize = true;
+            dockLabel1.Location = new System.Drawing.Point(18, 313);
+            dockLabel1.Name = "dockLabel1";
+            dockLabel1.Size = new System.Drawing.Size(79, 16);
+            dockLabel1.TabIndex = 26;
+            dockLabel1.Text = "Cena za 1:";
+            dockLabel1.Click += new System.EventHandler(this.dockLabel1_Click_1);
+            // 
+            // textBox1
+            // 
+            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.form1BindingSource, "Dock", true));
+            this.textBox1.Location = new System.Drawing.Point(120, 313);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(130, 27);
+            this.textBox1.TabIndex = 27;
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
+            // 
+            // dockLabel2
+            // 
+            dockLabel2.AutoSize = true;
+            dockLabel2.Location = new System.Drawing.Point(18, 367);
+            dockLabel2.Name = "dockLabel2";
+            dockLabel2.Size = new System.Drawing.Size(50, 16);
+            dockLabel2.TabIndex = 27;
+            dockLabel2.Text = "Suma:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.form1BindingSource, "Dock", true));
+            this.textBox2.Location = new System.Drawing.Point(120, 360);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(120, 23);
+            this.textBox2.TabIndex = 28;
+            this.textBox2.Click += new System.EventHandler(this.dockLabel3_Click);
             // 
             // form1BindingSource
             // 
@@ -462,6 +463,10 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1337, 608);
+            this.Controls.Add(dockLabel2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(dockLabel1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(dockLabel);
             this.Controls.Add(this.Polecane);
             this.Controls.Add(this.button6);
@@ -479,11 +484,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.panel1);
@@ -510,11 +511,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
@@ -540,5 +537,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
         private System.Windows.Forms.BindingSource form1BindingSource;
         private System.Windows.Forms.Label Polecane;
+        private System.Windows.Forms.Label textBox1;
+        private System.Windows.Forms.Label textBox2;
     }
 }

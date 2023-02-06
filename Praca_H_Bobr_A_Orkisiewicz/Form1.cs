@@ -89,7 +89,7 @@ namespace Praca_H_Bobr_A_Orkisiewicz
                     break;
 
                 case "Sernik":
-                    textBox1.Text = "150";
+                    textBox1.Text = "175";
                     break;
 
                 case "Kremówka":
@@ -272,22 +272,28 @@ namespace Praca_H_Bobr_A_Orkisiewicz
 
         }
 
-        private void accessibleNameLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void dockLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dockLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dockLabel1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
